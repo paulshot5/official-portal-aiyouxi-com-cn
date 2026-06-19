@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>爱游戏 · 常回来看看</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #faf8f5;
+      font-family: Georgia, 'Times New Roman', '宋体', SimSun, serif;
+      color: #3e3a36;
+      line-height: 1.7;
+      padding: 0 20px;
+    }
+    .page {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 0 60px;
+    }
+
+    /* hero */
+    .hero {
+      padding: 48px 20px 40px;
+      border-bottom: 1px solid #e2dbd0;
+      margin-bottom: 42px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #2b2825;
+      margin-bottom: 12px;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #625c55;
+      max-width: 600px;
+    }
+
+    /* section */
+    section {
+      margin-bottom: 44px;
+      padding: 0 8px;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      border-left: 4px solid #b8a491;
+      padding-left: 14px;
+      margin-bottom: 22px;
+      color: #2f2b28;
+    }
+    p {
+      margin-bottom: 1.1em;
+    }
+
+    /* 引用块 */
+    .quote-block {
+      background: #f3efe9;
+      border-left: 5px solid #b19f8c;
+      padding: 22px 24px;
+      margin: 28px 0;
+      border-radius: 2px;
+      font-style: normal;
+      color: #4c453e;
+    }
+    .quote-block p {
+      margin-bottom: 0.4em;
+    }
+    .quote-block .source {
+      font-size: 0.9rem;
+      color: #7d7266;
+      margin-top: 10px;
+      text-align: right;
+    }
+
+    /* 卡片式特点 */
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin: 24px 0 28px;
+    }
+    .feature-item {
+      flex: 1 1 200px;
+      background: #fffcf8;
+      border: 1px solid #e5ddd2;
+      padding: 20px 18px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    }
+    .feature-item h3 {
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #3f3932;
+    }
+    .feature-item p {
+      font-size: 0.95rem;
+      color: #5e5750;
+      margin-bottom: 0;
+    }
+
+    /* 提示框 */
+    .tip-box {
+      background: #f0ece4;
+      padding: 22px 24px;
+      border-radius: 6px;
+      margin: 28px 0;
+      border: 1px solid #ddd4c8;
+    }
+    .tip-box strong {
+      color: #3f352c;
+    }
+
+    /* FAQ 摘要 */
+    .faq-preview {
+      background: #fffcf8;
+      border: 1px solid #e0d7cb;
+      border-radius: 6px;
+      padding: 6px 20px 16px;
+      margin: 28px 0;
+    }
+    .faq-item {
+      border-bottom: 1px dashed #e1d9ce;
+      padding: 14px 0;
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-q {
+      font-weight: 500;
+      color: #3d362f;
+      margin-bottom: 4px;
+    }
+    .faq-a {
+      font-size: 0.95rem;
+      color: #655e57;
+    }
+
+    /* 底部链接 */
+    .footer-links {
+      border-top: 1px solid #e2dbd0;
+      padding-top: 28px;
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: #6c645b;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 20px;
+    }
+    .footer-links a {
+      color: #6c5f51;
+      text-decoration: none;
+      border-bottom: 1px dotted #c8bcae;
+    }
+    .footer-links a:hover {
+      color: #3b3229;
+      border-bottom: 1px solid #6c5f51;
+    }
+    .footer-note {
+      margin-top: 16px;
+      font-size: 0.88rem;
+      color: #8a7e72;
+    }
+
+    a {
+      color: #6c5f51;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      text-decoration-color: #c8bcae;
+    }
+    a:hover {
+      color: #3b3229;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 1.7rem; }
+      .hero { padding: 30px 12px 28px; }
+      h2 { font-size: 1.3rem; }
+      .features { gap: 16px; }
+      .feature-item { flex: 1 1 100%; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hero">
+    <h1>再次相遇 · 爱游戏</h1>
+    <p>偶尔路过，不如把它收进收藏夹。无论何时想回来，这里都有一份安静的陪伴。</p>
+  </div>
+
+  <section>
+    <h2>为什么值得再次回来</h2>
+    <p>好的内容常常需要慢慢翻阅。你上次在 <a href="https://official-portal-aiyouxi.com.cn">爱游戏</a> 看到的也许只是冰山一角。这个站点并没有刻意追赶热点，而是更愿意把时间花在打磨文字与游戏体验的细腻观察上。隔一段时间回来，总会有新的发现——可能是某篇重读仍旧有趣的老文章，也可能是刚更新的玩法手记。</p>
+
+    <div class="quote-block">
+      <p>“收藏夹里的东西越来越多，但真正愿意反复点开的，往往是那些不吵不闹、读起来舒服的页面。爱游戏就是这样一处角落。”</p>
+      <div class="source">—— 一位常把页面留在标签页里的访客</div>
+    </div>
+
+    <p>我们常常在快速浏览后关掉页面，以为自己记住了，但那些灵光一现的感受往往需要第二次、第三次阅读才能沉淀下来。把 <a href="https://official-portal-aiyouxi.com.cn">爱游戏</a> 放进收藏夹，或者干脆记住这个名字，下次想找点有温度的阅读内容时，就不必再费力重新搜索了。</p>
+  </section>
+
+  <section>
+    <h2>它和多数游戏网站不太一样</h2>
+    <div class="features">
+      <div class="feature-item">
+        <h3>安静的文字感</h3>
+        <p>没有弹窗、刺眼广告或催促订阅的横幅。页面就像一本翻开的旧笔记本，你可以慢慢读。</p>
+      </div>
+      <div class="feature-item">
+        <h3>偏重个人视角</h3>
+        <p>每篇文章都像是一位有经验的朋友在分享心得，而不是搬运资讯或复制评测模板。</p>
+      </div>
+      <div class="feature-item">
+        <h3>值得反复翻阅</h3>
+        <p>很多内容并非一次性消费，里面提到的技巧、关卡思路或设计分析，隔段时间再看会有不同理解。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>适合哪些时候打开</h2>
+    <p>午休时、睡前、或者想短暂从忙碌中抽离的几分钟——这些时刻都很适合点开 <a href="https://official-portal-aiyouxi.com.cn">爱游戏</a>。它不要求你一口气读完长篇大论，也不强迫你注册任何东西。你大可以只看一小段，或者把一篇旧文章重新读一遍，常常能发现上次忽略的细节。</p>
+
+    <div class="tip-box">
+      <strong>一个小建议：</strong> 如果某个页面让你觉得有共鸣，不妨直接把它加入书签。下次再访问时，熟悉的版面会让你感觉像回到一个安静的休息站。
+    </div>
+  </section>
+
+  <section>
+    <h2>一些你可能想问的</h2>
+    <div class="faq-preview">
+      <div class="faq-item">
+        <div class="faq-q">Q：页面会频繁改版吗？</div>
+        <div class="faq-a">A：不会。整体风格以稳定为主，偶尔会调整排版细节，但不会让老访客感到陌生。内容更新频率不高，但每篇都经过斟酌。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q：需要收藏某个具体栏目吗？</div>
+        <div class="faq-a">A：首页就是最好的入口。从 <a href="https://official-portal-aiyouxi.com.cn">爱游戏</a> 开始，你可以慢慢探索所有内容，没必要刻意记住分类。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q：这里会有社区或评论区吗？</div>
+        <div class="faq-a">A：暂时没有计划。站点的初衷是提供安静、可反复阅读的内容，而不是热闹的讨论场。想交流的话，可以顺着文章末尾的线索找到作者的联系方式。</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer-links">
+    <span>主站：<a href="https://official-portal-aiyouxi.com.cn">爱游戏</a></span>
+    <span>· 建议收藏 ·</span>
+    <span>内容不定期更新</span>
+    <div class="footer-note">
+      如果你喜欢这种阅读节奏，不妨每隔一两周回来看看。不用刻意关注，自然相遇就好。
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
